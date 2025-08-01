@@ -1,4 +1,4 @@
-/* Reset */
+ /* Reset */
 * {
   box-sizing: border-box;
   }
@@ -135,7 +135,7 @@
                                                                                                                                                                                           .heart {
                                                                                                                                                                                             position: absolute;
                                                                                                                                                                                               width: 14px;
-                                                                                                                                                                                                height: 14px;
+                                                                                                                                                                                                height: 14px; 
                                                                                                                                                                                                   background: #f72585;
                                                                                                                                                                                                     clip-path: polygon(
                                                                                                                                                                                                         50% 15%, 61% 0%, 76% 0%, 88% 13%, 88% 29%, 75% 45%, 
