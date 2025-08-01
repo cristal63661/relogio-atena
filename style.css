@@ -174,3 +174,13 @@
       0 0 45px #f72585;
   }
 }
+@media (max-width: 400px) {
+  .clock {
+    font-size: 3rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
