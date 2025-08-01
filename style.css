@@ -156,4 +156,21 @@
                                                                                                                                                                                                                               display: flex;
                                                                                                                                                                                                                                 justify-content: center;
                                                                                                                                                                                                                                   gap: 1rem;
-                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                  }body.celebrate .clock {
+  animation: pulseClock 0.8s infinite alternate;
+}
+
+@keyframes pulseClock {
+  from {
+    text-shadow:
+      0 0 10px #ff70b9,
+      0 0 20px #ff70b9,
+      0 0 40px #ff1493;
+  }
+  to {
+    text-shadow:
+      0 0 15px #ffb6e6,
+      0 0 25px #ff00aa,
+      0 0 45px #f72585;
+  }
+}
